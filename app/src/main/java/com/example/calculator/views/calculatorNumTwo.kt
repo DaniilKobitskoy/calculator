@@ -11,18 +11,13 @@ import android.widget.TextView
 import com.example.calculator.R
 
 import kotlinx.android.synthetic.main.fragment_calculator_num_two.*
-const val MENU_RESET_ID = 1
-const val MENU_QUIT_ID = 2
 
 
 var oper = ""
 class calculatorNumTwo : Fragment(), View.OnClickListener {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
     }
 
     override fun onCreateView(
@@ -51,16 +46,12 @@ class calculatorNumTwo : Fragment(), View.OnClickListener {
         var num1 = 0f
         var num2 = 0f
         var result = 0f
-
-
-        // Проверяем поля на пустоту
         if (TextUtils.isEmpty(etNum1?.text.toString())
             || TextUtils.isEmpty(etNum2?.text.toString())
         ) {
             return
         }
 
-        // читаем EditText и заполняем переменные числами
         num1 = etNum1?.text.toString().toFloat()
         num2 = etNum2?.text.toString().toFloat()
 
@@ -88,9 +79,7 @@ Log.d("кнопка", "привет")
             else -> {}
         }
 
-//        var tvResult = view?.findViewById<TextView>(R.id.tvResult)
         tvResult.text = "$result"
-//        tvResult?.setText( result.toString())
     }
 
 
