@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
+
 import kotlinx.android.synthetic.main.fragment_calculator_one.*
 import kotlinx.android.synthetic.main.fragment_calculator_one.view.*
 import org.mariuszgromada.math.mxparser.Expression

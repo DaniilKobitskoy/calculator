@@ -3,14 +3,15 @@ package com.example.calculatorGood
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.example.calculator.R
+import com.example.calculatorGood.R
+
 import com.example.calculatorGood.views.calculatorNumTwo
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+setContentView(R.layout.activity_main)
 
         val calculeterOne = calculatorOne()
         val calculatorNumTwo = calculatorNumTwo()
