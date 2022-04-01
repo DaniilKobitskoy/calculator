@@ -1,10 +1,10 @@
-package com.example.calculator
+package com.example.calculatorGood
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.example.calculator.views.calculatorNumTwo
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.calculator.R
+import com.example.calculatorGood.views.calculatorNumTwo
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

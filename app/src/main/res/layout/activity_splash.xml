@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/start2"
-        class="com.example.calculator.SplashNextCalculator"
+        class="com.example.calculatorGood.SplashNextCalculator"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_splash_next_calculator"
